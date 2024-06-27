@@ -14,10 +14,10 @@
       "dialect": "postgres"
     },
     "production": {
-      "username": "your_username",
-      "password": "your_password",
-      "database": "task_manager_production",
-      "host": "127.0.0.1",
+      "username": "default",
+      "password": "QgrEep7V2WGR",
+      "database": "verceldb",
+      "host": "ep-wispy-dawn-a42stwyb-pooler.us-east-1.aws.neon.tech",
       "dialect": "postgres"
     }
   }
