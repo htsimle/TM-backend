@@ -8,7 +8,7 @@ const taskRoutes = require('./routes/tasks');
 const app = express();
 
 const corsOptions = {
-  origin: 'https://tm-frontend-mauve.vercel.app', // Adjust this to your frontend URL on Vercel
+  origin: 'https://tm-frontend-mauve.vercel.app/', // Adjust this to your frontend URL on Vercel
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: ['Content-Type', 'Authorization'],
 };
